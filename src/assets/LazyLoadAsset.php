@@ -1,9 +1,9 @@
 <?php
 namespace onix\assets;
 
-use yii\web\AssetBundle;
+use yii\web\AssetBundle as YiiAssetBundle;
 
-class LazyLoadAsset extends AssetBundle
+class LazyLoadAsset extends YiiAssetBundle
 {
     public $sourcePath = '@bower/jquery_lazyload';
 
